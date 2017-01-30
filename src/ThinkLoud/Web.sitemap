@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/Default.aspx" title="Home" description="home">
+    <siteMapNode url="~/Search.aspx" title="Publishers" description="query and manage publishers" />
+    <siteMapNode url="~/Reports/ReportDashboard.aspx" title="Reports" description="run database reports" />    
+    <siteMapNode url="~/Admin/AdminDashboard.aspx" title="Admin Dashboard" description="manage the application entities" />
+    <siteMapNode url="~/About.aspx" title="About" description="application information"/>
+  </siteMapNode>
+</siteMap>

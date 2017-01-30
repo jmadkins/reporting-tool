@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="ThinkLoud.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Test</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: auto;
+            width: 765px;
+        }
+        .auto-style2 {
+            width: 761px;
+            height: auto;
+        }
+        .auto-style3 {
+            width: 578px;
+            height: auto;
+        }
+        .auto-style4 {
+            font-size: x-small;
+        }
+        .auto-style7 {
+            width: 730px;
+            text-align: left;
+        }
+        .auto-style8 {
+            width: 765px;
+        }
+        .auto-style9 {
+            width: 37px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body style="height: auto; width: 765px;">
+    <form id="form1" runat="server">
+        <table style="margin: 2px;" class="auto-style2">
+            <tr>
+                 <td colspan="2" style="background-color:#99CCFF; width: auto;">
+                    <h1 style="margin: 10px">
+                        <asp:Label ID="AppName" runat="server" />
+                    </h1>
+                     <asp:SiteMapPath ID="SiteMapPath1" runat="server" />
+                     <br />
+                 </td>
+            </tr>            
+            <tr>
+                <td style="vertical-align: top; background-color:#99CCFF; " class="auto-style1">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="siteMapDataSource" ImageSet="News" NodeIndent="10" ShowLines="True" >
+                        <HoverNodeStyle Font-Underline="True" />
+                        <NodeStyle Font-Names="Arial" Font-Size="10pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                        <ParentNodeStyle Font-Bold="False" />
+                        <SelectedNodeStyle Font-Underline="True" HorizontalPadding="0px" VerticalPadding="0px" />
+                    </asp:TreeView>
+                </td>                
+                <td style="vertical-align: top;" class="auto-style3">
+                    <div style="background-color: #FFE0C0; height: auto; width: 765px; padding: 10px">
+                        <asp:ContentPlaceHolder ID="headerContent" runat="server" />
+                    </div>           
+                    <div style="background-color: #E0E0E0; height: auto; width: 765px; padding: 10px">
+                        <asp:ContentPlaceHolder ID="bodyContent" runat="server" />
+                    </div>         
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color:#99CCFF; " colspan="2" class="auto-style8">
+                    <em>© <asp:Label ID="Company" runat="server" /> - <span class="auto-style4"><asp:Label ID="Version" runat="server" /></span></em>
+                </td>
+            </tr>
+        </table>           
+    </form>
+</body>
+</html>
+<asp:sitemapdatasource runat="server" ID="siteMapDataSource"/>

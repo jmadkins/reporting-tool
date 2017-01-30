@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkLoud", "ThinkLoud\ThinkLoud.csproj", "{8D9EC2AD-E3DE-4812-AAE7-29C735385B6F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://adkinssd.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ThinkLoud\\ThinkLoud.csproj
+		SccProjectName1 = ThinkLoud
+		SccLocalPath1 = ThinkLoud
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9EC2AD-E3DE-4812-AAE7-29C735385B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9EC2AD-E3DE-4812-AAE7-29C735385B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9EC2AD-E3DE-4812-AAE7-29C735385B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9EC2AD-E3DE-4812-AAE7-29C735385B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
